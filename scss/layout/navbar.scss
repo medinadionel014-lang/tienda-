@@ -1,0 +1,28 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+/* ==============================
+   NAVBAR
+============================== */
+
+.navbar {
+  background-color: $verde-principal;
+
+  .navbar-brand {
+    font-weight: bold;
+    color: $blanco;
+
+    img {
+      width: 55px;
+    }
+  }
+
+  .nav-link {
+    color: $blanco;
+    font-size: 1.1rem;
+
+    &:hover {
+      color: lighten($blanco, 10%);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+/* ==============================
+   EXTENDS
+============================== */
+
+%card-base {
+  background-color: $blanco;
+  border-radius: $radio-base;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+%hover-anim {
+  transition: $transition-base;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}

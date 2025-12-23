@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* ==============================
+   VARIABLES
+============================== */
+/* Colores */
+/* Tipografía */
+/* Tamaños */
+/* ==============================
+   MIXINS
+============================== */
+/* Flexbox */
+/* Grid */
+/* Media queries */
+/* ==============================
+   FOOTER
+============================== */
+footer {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+footer .icono-redes {
+  width: 40px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+footer .icono-redes:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=footer.css.map */

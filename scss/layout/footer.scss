@@ -1,0 +1,26 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+/* ==============================
+   FOOTER
+============================== */
+
+footer {
+  background-color: $verde-principal;
+  color: $blanco;
+  padding: 1.5rem;
+  margin-top: 2rem;
+
+  @include flex(center, center, 1rem);
+  flex-direction: column;
+
+  .icono-redes {
+    width: 40px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

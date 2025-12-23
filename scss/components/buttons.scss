@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+/* ==============================
+   BUTTONS
+============================== */
+
+.btn-success {
+  background-color: $verde-principal;
+  border-color: $verde-oscuro;
+  font-size: 1.05rem;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $verde-oscuro;
+  }
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* ==============================
+   VARIABLES
+============================== */
+/* Colores */
+/* Tipografía */
+/* Tamaños */
+/* ==============================
+   BASE TYPOGRAPHY
+============================== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #FAFAF5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #2E7D32;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/* Párrafos */
+p {
+  font-size: 1.1rem;
+  color: rgb(25.5, 25.5, 25.5);
+}/*# sourceMappingURL=typography.css.map */

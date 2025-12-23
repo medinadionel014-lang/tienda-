@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* ==============================
+   VARIABLES
+============================== */
+/* Colores */
+/* Tipografía */
+/* Tamaños */
+/* ==============================
+   HOME
+============================== */
+.bienvenida {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.bienvenida h1 {
+  margin-bottom: 0.5rem;
+}
+.bienvenida p {
+  font-size: 1.15rem;
+}/*# sourceMappingURL=home.css.map */

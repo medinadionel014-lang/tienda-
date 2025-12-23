@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* ==============================
+   VARIABLES
+============================== */
+/* Colores */
+/* Tipografía */
+/* Tamaños */
+/* ==============================
+   MIXINS
+============================== */
+/* Flexbox */
+/* Grid */
+/* Media queries */
+/* ==============================
+   NAVBAR
+============================== */
+.navbar {
+  background-color: #4CAF50;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+}
+.navbar .navbar-brand img {
+  width: 55px;
+}
+.navbar .nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.navbar .nav-link:hover {
+  color: white;
+}/*# sourceMappingURL=navbar.css.map */

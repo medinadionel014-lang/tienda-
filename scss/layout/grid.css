@@ -1,0 +1,28 @@
+/* ==============================
+   MIXINS
+============================== */
+/* Flexbox */
+/* Grid */
+/* Media queries */
+/* ==============================
+   GRID GENERAL
+============================== */
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+@media (max-width: 992px) {
+  .grid-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .grid-productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=grid.css.map */
